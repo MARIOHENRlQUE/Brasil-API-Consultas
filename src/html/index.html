@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste das APIs da Brasil API</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Teste das APIs da Brasil API</h1>
+        
+        <section class="api-section">
+            <h2>Consulta de Bancos</h2>
+            <button id="get-banks">Consultar Bancos</button>
+            <div id="banks-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de CEP</h2>
+            <input type="text" id="cep" placeholder="Digite o CEP" />
+            <button id="get-cep">Consultar CEP</button>
+            <div id="cep-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de CEP (v2)</h2>
+            <input type="text" id="cepv2" placeholder="Digite o CEP" />
+            <button id="get-cepv2">Consultar CEP v2</button>
+            <div id="cepv2-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de CNPJ</h2>
+            <input type="text" id="cnpj" placeholder="Digite o CNPJ" />
+            <button id="get-cnpj">Consultar CNPJ</button>
+            <div id="cnpj-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de Corretoras</h2>
+            <button id="get-corretoras">Consultar Corretoras</button>
+            <div id="corretoras-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de CTP-e</h2>
+            <input type="text" id="cptex" placeholder="Digite o CTP-e" />
+            <button id="get-cptex">Consultar CTP-e</button>
+            <div id="cptex-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de DDD</h2>
+            <input type="text" id="ddd" placeholder="Digite o DDD" />
+            <button id="get-ddd">Consultar DDD</button>
+            <div id="ddd-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de Feriados Nacionais</h2>
+            <input type="text" id="ano-feriado" placeholder="Digite o ano" />
+            <button id="get-feriados">Consultar Feriados</button>
+            <div id="feriados-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta da Tabela FIPE</h2>
+            <input type="text" id="fipe" placeholder="Digite a marca e o modelo" />
+            <button id="get-fipe">Consultar FIPE</button>
+            <div id="fipe-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de IBGE</h2>
+            <input type="text" id="ibge" placeholder="Digite o código do IBGE" />
+            <button id="get-ibge">Consultar IBGE</button>
+            <div id="ibge-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de ISBN</h2>
+            <input type="text" id="isbn" placeholder="Digite o ISBN" />
+            <button id="get-isbn">Consultar ISBN</button>
+            <div id="isbn-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de NCM</h2>
+            <input type="text" id="ncm" placeholder="Digite o NCM" />
+            <button id="get-ncm">Consultar NCM</button>
+            <div id="ncm-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de PIX</h2>
+            <input type="text" id="pix" placeholder="Digite a chave PIX" />
+            <button id="get-pix">Consultar PIX</button>
+            <div id="pix-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de Registro BR</h2>
+            <input type="text" id="registro-br" placeholder="Digite o domínio" />
+            <button id="get-registro-br">Consultar Registro BR</button>
+            <div id="registro-br-result" class="result"></div>
+        </section>
+
+        <section class="api-section">
+            <h2>Consulta de Taxas</h2>
+            <button id="get-taxas">Consultar Taxas</button>
+            <div id="taxas-result" class="result"></div>
+        </section>
+    </div>
+
+    <script src="../libs/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
